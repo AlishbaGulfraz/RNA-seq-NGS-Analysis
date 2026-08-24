@@ -57,6 +57,9 @@ The analysis workflow demonstrated:
 ## Internship Report
 The complete internship report containing detailed methodology, workflow screenshots, analysis steps, and results is available in this repository:
 - Alishba_Gulfraz_Internship_Report_Final.pdf
+## Research Experience
+I have contributed to collaborative research projects resulting in publications with Chinese researchers. My contributions included literature review, data interpretation, scientific writing, and research support.
+Detailed information regarding my specific contributions can be provided upon request.
 ## Skills Demonstrated
 - RNA-seq data analysis
 - NGS quality control
