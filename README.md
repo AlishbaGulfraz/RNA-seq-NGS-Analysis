@@ -1,22 +1,31 @@
-# RNA-seq-NGS-Analysis
-This repository documents my RNA-seq/NGS analysis workflow, including the methodology, tools, commands, screenshots, and results from my internship project at NIGAB, NARC, Islamabad.
+# RNA-seq NGS Analysis Internship Project
+This repository documents my RNA-seq/NGS analysis workflow, including the methodology, tools, commands, screenshots, and results from my bioinformatics internship project at NIGAB, NARC, Islamabad.
+## Internship Information
+This project was completed during my bioinformatics internship at NIGAB, NARC, Islamabad.
+The internship focused on RNA-seq data analysis, NGS data processing, quality control, genome alignment, and gene expression quantification.
 ## Project Overview
-This project demonstrates the computational analysis of paired-end RNA-seq data, including quality assessment, read trimming, genome alignment, and gene expression quantification.
+This project demonstrates the computational analysis of paired-end RNA-seq data, including:
+- Quality assessment of raw sequencing reads
+- Read preprocessing and quality trimming
+- Reference genome alignment
+- Alignment quality evaluation
+- Gene expression quantification
 ## Dataset
 - GEO Accession: GSE108504
 - Organism: *Oryza sativa* Japonica (Nipponbare)
-- Sequencing: Illumina HiSeq 2000
-- Data type: Paired-end RNA-seq
-- Samples: 6
+- Sequencing Platform: Illumina HiSeq 2000
+- Data Type: Paired-end RNA-seq
+- Number of Samples: 6
 ## Analysis Workflow
+The RNA-seq analysis workflow included:
 1. Raw read quality control using FastQC
-2. Quality assessment and reporting using MultiQC
+2. Quality assessment and report generation using MultiQC
 3. Adapter and quality trimming using fastp
 4. Quality control of trimmed reads
 5. Reference genome preparation
 6. Read alignment using HISAT2
 7. SAM to BAM conversion and sorting using SAMtools
-8. Alignment statistics using samtools flagstat
+8. Alignment statistics evaluation using samtools flagstat
 9. Gene-level read quantification using featureCounts
 ## Tools & Technologies
 - Ubuntu/Linux
@@ -26,14 +35,26 @@ This project demonstrates the computational analysis of paired-end RNA-seq data,
 - HISAT2
 - SAMtools
 - featureCounts
-- NGS/RNA-seq analysis
+- RNA-seq and NGS analysis tools
+## Results
+The analysis workflow demonstrated:
+- Assessment of sequencing read quality
+- Removal of adapters and low-quality sequences
+- Successful alignment of RNA-seq reads to the reference genome
+- Evaluation of alignment statistics
+- Gene expression quantification
+## Internship Report
+The complete internship report containing detailed methodology, workflow screenshots, analysis steps, and results is available in this repository:
+- Alishba_Gulfraz_Internship_Report_Final.pdf
 ## Skills Demonstrated
 - RNA-seq data analysis
 - NGS quality control
 - Sequence alignment
-- Reference-based analysis
+- Reference-based genome analysis
 - Gene expression quantification
 - Command-line bioinformatics
+## Code Availability
+The original analysis code files are not included in this repository. However, the complete workflow, commands, and practical analysis steps are documented through screenshots included in the internship report.
 ## Author
 **Alishba Gulfraz**  
 B.S. Bioinformatics  
