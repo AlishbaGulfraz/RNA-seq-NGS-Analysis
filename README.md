@@ -27,6 +27,17 @@ The RNA-seq analysis workflow included:
 7. SAM to BAM conversion and sorting using SAMtools
 8. Alignment statistics evaluation using samtools flagstat
 9. Gene-level read quantification using featureCounts
+## Bioinformatics Pipeline Scripts
+The following shell scripts represent the major command-line steps used in the RNA-seq analysis workflow:
+| Script | Description |
+|---|---|
+| 01_download_fastq.sh | Download paired-end RNA-seq FASTQ files |
+| 02_fastqc.sh | Raw read quality assessment using FastQC |
+| 03_multiqc.sh | Quality report aggregation using MultiQC |
+| 04_fastp.sh | Adapter trimming and quality filtering using fastp |
+| 05_hisat2.sh | Reference genome indexing and read alignment using HISAT2 |
+| 06_samtools.sh | SAM to BAM conversion, sorting, and indexing using SAMtools |
+| 07_featurecounts.sh | Gene-level read quantification using featureCounts |
 ## Tools & Technologies
 - Ubuntu/Linux
 - FastQC
